@@ -29,4 +29,9 @@ class TestUser():
     def test_substraction_even(mocker):
         Helper.add_sleep(2)
         user = User()
-        assert 18 == user.add_two_numbers(20, 2)
+        assert 18 == user.substract_two_numbers(20, 2)
+
+    def test_substraction_odd(mocker):
+        Helper.add_sleep(1.1)
+        user = User()
+        assert 18 == user.add_two_numbers(19, 1)
