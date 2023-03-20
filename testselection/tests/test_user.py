@@ -25,3 +25,8 @@ class TestUser():
         Helper.add_sleep(1.2)
         user = User()
         assert 6 == user.add_two_numbers(2, 4)
+
+    def test_substraction_even(mocker):
+        Helper.add_sleep(2)
+        user = User()
+        assert 18 == user.add_two_numbers(20, 2)
