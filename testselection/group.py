@@ -1,5 +1,7 @@
 from testselection.user import User
 
+import random
+
 class Group():
     fail_all = False
 
