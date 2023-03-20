@@ -15,4 +15,6 @@ class Org():
         self.balance = self.balance - amount
 
     def get_balance(self):
+        if self.should_fail:
+            return 999
         return self.balance
