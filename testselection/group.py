@@ -7,4 +7,5 @@ class Group():
         self.user = User()
 
     def return_true(self):
+        print(self.user.fail_all)
         return True
