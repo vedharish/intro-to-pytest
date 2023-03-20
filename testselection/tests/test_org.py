@@ -43,3 +43,11 @@ class TestUser():
         org.withdraw_money(100)
         org.withdraw_money(100)
         assert 0 == org.get_balance()
+
+    def test_custom_4(mocker):
+        Helper.add_sleep(0.2)
+        org = Org(200)
+        org.withdraw_money(100)
+        org.withdraw_money(100)
+        org.withdraw_money(100)
+        assert -100 == org.get_balance()
