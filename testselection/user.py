@@ -1,5 +1,5 @@
 class User():
-    fail_all = False
+    fail_all = True
 
     def add_two_numbers(self, a, b):
         if self.fail_all:
