@@ -19,3 +19,8 @@ class Group():
         if self.should_fail:
             return 999
         return 999 if self.fail_with_probability(0.2) else 1
+
+    def return_group_true(self):
+        if self.should_fail:
+            return 999
+        return 1

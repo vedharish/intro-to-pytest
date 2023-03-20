@@ -15,3 +15,8 @@ class TestGroup():
         Helper.add_sleep(2)
         group = Group()
         assert group.random_functionality() == 1
+
+    def test_random_functionality_new(mocker):
+        Helper.add_sleep(2)
+        group = Group()
+        assert group.return_group_true() == 1
