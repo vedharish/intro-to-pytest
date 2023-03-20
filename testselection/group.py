@@ -3,7 +3,7 @@ from testselection.user import User
 import random
 
 class Group():
-    fail_all = True
+    fail_all = False
 
     def __init__(self):
         self.user = User()
