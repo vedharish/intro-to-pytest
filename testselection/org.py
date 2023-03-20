@@ -1,7 +1,7 @@
 from testselection.group import Group
 
 class Org():
-    fail_all = True
+    fail_all = False
 
     def __init__(self, balance):
         self.group = Group()
