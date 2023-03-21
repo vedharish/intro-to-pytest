@@ -9,7 +9,9 @@ class Org():
         self.balance = balance
 
     def deposit_money(self, amount):
-        self.balance = self.balance + amount
+        a = self.balance
+        self.balance = 12
+        self.balance = a + amount
 
     def withdraw_money(self, amount):
         self.balance = self.balance - amount
